@@ -1,0 +1,12 @@
+{
+  "out": "series/ep02/project/textures/cards.png",
+  "width": 1920, "height": 1080,
+  "cards": [
+    {"layout": "title", "kicker": "HOW DRAM WORKS  /  EPISODE 02", "title": "The Refresh Cycle", "sub": "why memory reads itself, forever", "tag": "a series on how memory works"},
+    {"layout": "beat", "kicker": "01  /  THE LEAK", "title": "Charge drains in milliseconds", "sub": "a capacitor is never a perfect bucket"},
+    {"layout": "beat", "kicker": "02  /  THE SENSE AMP", "title": "Read it before it fades", "sub": "the amplifier resolves a faint charge into a clean 1 or 0"},
+    {"layout": "beat", "kicker": "03  /  REFRESH", "title": "Every row, every 64 ms", "sub": "read, amplify, write back. then the next row."},
+    {"layout": "beat", "kicker": "04  /  THE COST", "title": "Refresh takes bandwidth", "sub": "steady reads you never asked for, paid in power and time"},
+    {"layout": "closing", "kicker": "NEXT  /  EPISODE 03", "title": "Rows, Columns, Banks", "sub": "how an address becomes data", "tag": "how dram works"}
+  ]
+}

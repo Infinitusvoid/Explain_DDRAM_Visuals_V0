@@ -1,0 +1,12 @@
+{
+  "out": "series/ep05/project/textures/cards.png",
+  "width": 1920, "height": 1080,
+  "cards": [
+    {"layout": "title", "kicker": "HOW DRAM WORKS  /  EPISODE 05", "title": "Double Data Rate", "sub": "two transfers per clock, eight beats per access", "tag": "a series on how memory works"},
+    {"layout": "beat", "kicker": "01  /  ONE EDGE", "title": "One transfer per cycle", "sub": "the original SDRAM way: data on the rising edge only"},
+    {"layout": "beat", "kicker": "02  /  BOTH EDGES", "title": "Double the rate", "sub": "DDR moves a beat on the rising AND the falling edge"},
+    {"layout": "beat", "kicker": "03  /  PREFETCH 8", "title": "Eight beats per access", "sub": "one column read fills eight data slots on a 64-bit bus"},
+    {"layout": "beat", "kicker": "04  /  BANDWIDTH", "title": "DDR5-5600: 44.8 GB/s", "sub": "5600 MT/s × 8 bytes = 44.8 GB/s per channel"},
+    {"layout": "closing", "kicker": "NEXT  /  EPISODE 06", "title": "Inside a DIMM", "sub": "channels, ranks, banks and the controller", "tag": "how dram works"}
+  ]
+}

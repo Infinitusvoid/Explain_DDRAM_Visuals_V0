@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+#  Generated video and renders
+# ---------------------------------------------------------------------------
+*.mp4
+deliverables/*.mp4
+
+# ---------------------------------------------------------------------------
+#  Generated projects, stills and scratch (rebuilt by generate_video.bat)
+# ---------------------------------------------------------------------------
+series/*/project/
+series/*/renders/
+series/*/previews/
+series/*/frames/
+deliverables/posters/
+deliverables/thumbnails/
+work/
+*.log
+*.tmp
+
+# ---------------------------------------------------------------------------
+#  Engine runtime (re-extracted from the tracked zip by generate_video.bat)
+# ---------------------------------------------------------------------------
+TheNewStatelessPointcloudEngine_V1_Runtime/
+
+# ---------------------------------------------------------------------------
+#  Editor / OS / Python
+# ---------------------------------------------------------------------------
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.pyc
+

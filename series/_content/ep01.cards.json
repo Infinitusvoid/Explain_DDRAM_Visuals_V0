@@ -1,0 +1,13 @@
+{
+  "out": "series/ep01/project/textures/cards.png",
+  "width": 1920, "height": 1080,
+  "cards": [
+    {"layout": "title", "kicker": "HOW DRAM WORKS  /  EPISODE 01", "title": "The Leaky Bucket", "sub": "one bit, one transistor, one capacitor", "tag": "a series on how memory works"},
+    {"layout": "beat", "kicker": "01  /  THE CELL", "title": "A bit is a bucket of charge", "sub": "charge means 1.  empty means 0."},
+    {"layout": "beat", "kicker": "02  /  THE PARTS", "title": "One transistor, one capacitor", "sub": "the transistor gates the flow; the capacitor holds it"},
+    {"layout": "beat", "kicker": "03  /  THE PROBLEM", "title": "The bucket always leaks", "sub": "the charge drains away in milliseconds"},
+    {"layout": "beat", "kicker": "04  /  THE FIX", "title": "Refresh before it fades", "sub": "sense the charge, amplify it, write it back"},
+    {"layout": "beat", "kicker": "05  /  THE COST", "title": "Every row, every 64 ms", "sub": "billions of cells, refreshed forever"},
+    {"layout": "closing", "kicker": "NEXT  /  EPISODE 02", "title": "The Refresh Cycle", "sub": "the price of a leaky bucket", "tag": "how dram works"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "out": "series/ep04/project/textures/cards.png",
+  "width": 1920, "height": 1080,
+  "cards": [
+    {"layout": "title", "kicker": "HOW DRAM WORKS  /  EPISODE 04", "title": "The Read Transaction", "sub": "a read is a sequence, not a lookup", "tag": "a series on how memory works"},
+    {"layout": "beat", "kicker": "01  /  THE SEQUENCE", "title": "Three commands, one read", "sub": "activate, read, precharge. each one costs time."},
+    {"layout": "beat", "kicker": "02  /  tRCD", "title": "Activate, then wait tRCD", "sub": "the row has to physically open before data can leave"},
+    {"layout": "beat", "kicker": "03  /  CL", "title": "CAS latency, then the burst", "sub": "data arrives CL clock cycles after the read command"},
+    {"layout": "beat", "kicker": "04  /  tRP", "title": "Close the row, pay tRP", "sub": "precharge resets the bitlines for the next access"},
+    {"layout": "closing", "kicker": "NEXT  /  EPISODE 05", "title": "Double Data Rate", "sub": "how DDR5 reaches 44.8 GB/s", "tag": "how dram works"}
+  ]
+}

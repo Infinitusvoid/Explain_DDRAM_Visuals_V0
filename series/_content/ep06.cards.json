@@ -1,0 +1,12 @@
+{
+  "out": "series/ep06/project/textures/cards.png",
+  "width": 1920, "height": 1080,
+  "cards": [
+    {"layout": "title", "kicker": "HOW DRAM WORKS  /  EPISODE 06", "title": "Inside a DIMM", "sub": "channels, ranks, banks and the controller", "tag": "a series on how memory works"},
+    {"layout": "beat", "kicker": "01  /  THE MODULE", "title": "A board and eight chips", "sub": "the DIMM you plug into the motherboard"},
+    {"layout": "beat", "kicker": "02  /  THE RANK", "title": "A rank answers together", "sub": "eight chips wide: sixty-four bits per transfer"},
+    {"layout": "beat", "kicker": "03  /  THE BANKS", "title": "Each chip holds many banks", "sub": "while one bank waits, another can work"},
+    {"layout": "beat", "kicker": "04  /  THE CONTROLLER", "title": "One controller, many targets", "sub": "addresses spread across channels, ranks and banks"},
+    {"layout": "closing", "kicker": "SERIES COMPLETE", "title": "How DRAM Works", "sub": "from one leaky capacitor to a memory system", "accent": "#ffc478", "tag": "thanks for watching"}
+  ]
+}

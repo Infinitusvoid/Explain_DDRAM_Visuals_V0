@@ -1,0 +1,12 @@
+{
+  "out": "series/ep03/project/textures/cards.png",
+  "width": 1920, "height": 1080,
+  "cards": [
+    {"layout": "title", "kicker": "HOW DRAM WORKS  /  EPISODE 03", "title": "Rows, Columns, Banks", "sub": "how an address becomes data", "tag": "a series on how memory works"},
+    {"layout": "beat", "kicker": "01  /  THE ADDRESS", "title": "An address is a row and a column", "sub": "the row chooses a line of cells; the column chooses bits on it"},
+    {"layout": "beat", "kicker": "02  /  THE ROW", "title": "One wordline opens one row", "sub": "every cell on the line connects to its bitline at once"},
+    {"layout": "beat", "kicker": "03  /  THE SENSE AMPS", "title": "A whole row is read together", "sub": "thousands of tiny charges amplified in parallel"},
+    {"layout": "beat", "kicker": "04  /  THE COLUMN", "title": "Only your bytes leave", "sub": "the column mux picks 8 bits out of the row"},
+    {"layout": "closing", "kicker": "NEXT  /  EPISODE 04", "title": "The Read Transaction", "sub": "tRCD, CL and tRP: what waiting costs", "tag": "how dram works"}
+  ]
+}
